@@ -1,0 +1,24 @@
+commit f57fe04c3be6540d491eb3d1daf35a0338c10682
+Merge: e814ff1 94c528f
+Author: Гавраш Ирина <gavrashig@gmail.com>
+Date:   Tue Oct 6 00:41:14 2026 +0300
+
+    Конфликт слияния разрешен вручную
+
+commit e814ff1abd685de4e41296397b881047e1c5251e
+Author: Гавраш Ирина <gavrashig@gmail.com>
+Date:   Tue Oct 6 00:38:14 2026 +0300
+
+    Добавлена основная строкка в ветке main
+
+commit 94c528f54215b5aff1651129cd596a311e893489
+Author: Гавраш Ирина <gavrashig@gmail.com>
+Date:   Tue Oct 6 00:34:57 2026 +0300
+
+    Добавлена тестовая строка в ветке pr1
+
+commit 53415cd28072aa9f5bfe2cb004a272ad3df53e4e
+Author: Гавраш Ирина <gavrashig@gmail.com>
+Date:   Tue Oct 6 00:27:32 2026 +0300
+
+    first commit
