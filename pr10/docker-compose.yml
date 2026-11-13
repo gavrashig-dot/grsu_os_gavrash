@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  joomla:
+    image: joomla
+    restart: always
+    links:
+      - wordpressdb-gavrash:mysql
+    ports:
+      - "8080:80"
+    volumes:
+      - "/opt/wp-content_7:/var/www/html"
+    environment:
+      JOOMLA_DB_HOST: wordpressdb-gavrash
+      JOOMLA_DB_USER: wordpress
+      JOOMLA_DB_PASSWORD: secret_7
+      JOOMLA_DB_NAME: wordpress
+
+  wordpressdb-gavrash:
+    image: mariadb:10.11
+    restart: always
+    volumes:
+      - "/opt/mysql_7:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret_7
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: secret_7
