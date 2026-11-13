@@ -1,0 +1,50 @@
+commit 9c02447128ffd0ff4e779bdb5f35b74a93307e78
+Author: gavrash <gavrash>
+Date:   Fri Nov 13 16:54:59 2026 +0000
+
+    Добавлен docker-compose.yml для Joomla и MariaDB. Вариант 7
+
+commit 2ee2a00cd99b8ecce60919de82abbf1fd6251082
+Author: gavrash <gavrash>
+Date:   Thu Nov 12 21:22:43 2026 +0000
+
+    Инспекция контейнеров и OverlayFS. Вариант 7
+
+commit ac007221acbcfcb6ac3f1a7ca96dcac762fcaf5f
+Author: gavrash <gavrash>
+Date:   Thu Nov 12 19:03:20 2026 +0000
+
+    Добавлен bash-скрипт бэкапа с GPG шифрованием. Варинат 7
+
+commit 19f292628c19ed1eb36f38e7c35e0be5db041c87
+Author: gavrash <gavrash>
+Date:   Sat Nov 7 23:59:55 2026 +0000
+
+    Настроен Reverse Proxy и балансировка нагрузкии. Вариант 7
+
+commit 9924a5141a1a2abadc8401d3896b049e2bb0d80f
+Author: gavrash <gavrash>
+Date:   Sat Nov 7 16:48:07 2026 +0000
+
+    Лабораторная работа 6: Настройка порта 2007 и ключей SSH
+
+commit c1001ec22b432a3dfe46aa757fd4ecd240a47b1e
+Merge: e8ad7e7 12b80d1
+Author: gavrashig-dot <gavrashig@gmail.com>
+Date:   Wed Nov 4 00:06:52 2026 +0300
+
+    Merge pull request #1 from gavrashig-dot/pr5
+    
+    Add dnsmasq.conf for pr5
+
+commit 12b80d10c5f6a4ee958f033a4a4b23ef2bc8acd3
+Author: gavrash <gavrash>
+Date:   Tue Nov 3 21:00:29 2026 +0000
+
+    Add dnsmasq.conf for pr5
+
+commit e8ad7e7fb808bcf584ca6b295dfc79580a3078e7
+Author: gavrash <gavrash>
+Date:   Mon Oct 26 14:48:49 2026 +0000
+
+    Добавлены конфигурации SMB и FTP
